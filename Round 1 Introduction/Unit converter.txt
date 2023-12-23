@@ -1,0 +1,68 @@
+887
+1) 
+a) Opposite is -887. Its signed two complement is 1111110010001001
+b) 0x6228
+c) 0x9D 0x84
+d) 0xFF21
+
+2) macOS
+
+3) 
+00000000 00000000 11111111 00000000
+00000000 00010010 00110100 01010110
+00000000 10101011 10101011 11101111
+00000000 00000000 00000000 00000000
+
+
+
+Student digit sequence: 244
+
+1a (ok).  [https://www.rapidtables.com/convert/number/decimal-to-binary.html](https://www.rapidtables.com/convert/number/decimal-to-binary.html)
+
+Decimal Number: -244. 
+
+Remember : Negative number
+
+Binary Number’s signed 2 complement: 1111111100001100
+
+1b(ok). Convert result to hexadecimal representation of a half-precision float16 format
+
+[https://float.exposed/0x58e0](https://float.exposed/0x58e0)
+
+Remember: Choose half and raw hexa decimal
+
+- Convert to float16 (145.0)
+- Convert to hexa decimal (0x5888)
+
+1c (ok).  [https://www.exploringbinary.com/twos-complement-converter/](https://www.exploringbinary.com/twos-complement-converter/) 
+
+Decimal : -99. Twos complement: 10011101 ⇒ 0x9D
+
+Decimal:  -124. Twos complement: 10000100 ⇒ 0x84
+
+1d. (nok)
+
+- Add the twos complement: [https://www.easycalculation.com/2s-complement-addition.php](https://www.easycalculation.com/2s-complement-addition.php)
+
+10011101 + 10000100 = 100100001
+
+- Convert to 16 bit hex: (0xFF21)
+
+1. Binary to UTF-8: [https://onlineutf8tools.com/convert-binary-to-utf8](https://onlineutf8tools.com/convert-binary-to-utf8) (macOS)
+2. RGB Vectorization (ok)
+
+green (0x00FF00), regal blue (0x123456), perano (0xABABEF)
+
+0x00FF00 = 00000000 11111111 00000000
+0x123456 = 00010010 00110100 01010110
+0xABABEF = 10101011 10101011 11101111
+
+
+00000000 00000000 11111111 00000000
+
+00000000 00010010 00110100 01010110
+
+00000000 10101011 10101011 11101111
+
+00000000 00000000 00000000 00000000
+
